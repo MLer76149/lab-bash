@@ -1,0 +1,22 @@
+1. echo "Hello World"
+2. mkdir new_dir
+3. rm -r new_dir
+4. cp sed.txt ../lorem-copy
+5. cp at.txt ../lorem-copy; lorem.txt ../lorem-copy
+6. cat sed.txt
+7. cat at.txt; cat lorem.txt
+8. head -3 sed.txt
+9. tail -3 sed.txt
+10. echo "Homo homini lupus." >> sed.txt
+11. tail -3 sed.txt
+12. sed -i 's/et/ET/g' at.txt --> comment: it was already replaced to "ET" within the file
+13. net user
+14. pwd
+15. ls *.txt
+16. cat sed.txt | wc -l
+17. find -name "lorem*.*" | wc -l
+Bonus
+20. read name -> Michael
+21. echo $name
+22. mkdir echo $name
+23. rm -r Michael
